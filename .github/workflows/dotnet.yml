@@ -33,5 +33,5 @@ jobs:
         cd /home/runner/work/mslearn-tailspin-spacegame-web/mslearn-tailspin-spacegame-web/Tailspin.SpaceGame.Web/bin/Release/net6.0/win10-x64/publish/ \
         && git init \
         && git add . \
-        && git commit -m `Publish job '${{ github.job }}'.`
+        && git commit -m "Publish job '${{ github.job }}'."
       
