@@ -28,3 +28,4 @@ jobs:
       run: dotnet test --no-build --verbosity normal
     - name: Publish
       run: dotnet publish -c Release -f net6.0 -r win10-x64 --self-contained true
+           echo"Test echo"
