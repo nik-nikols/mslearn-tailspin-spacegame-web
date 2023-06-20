@@ -32,6 +32,6 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: my-artifact
-        path: ~/runner/work/mslearn-tailspin-spacegame-web/mslearn-tailspin-spacegame-web/Tailspin.SpaceGame.Web/bin/Release/net6.0/win10-x64/publish/
+        path: /home/runner/work/mslearn-tailspin-spacegame-web/mslearn-tailspin-spacegame-web/Tailspin.SpaceGame.Web/bin/Release/net6.0/win10-x64/publish/
         if-no-files-found: error
       
