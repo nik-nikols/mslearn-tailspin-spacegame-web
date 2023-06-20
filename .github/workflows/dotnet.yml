@@ -31,7 +31,7 @@ jobs:
     - name: Create Published Artifact
       uses: actions/upload-artifact@v3
       with:
-        name: mslearn-tailspin-spacegame-web_${{ needs.build.outputs.build_id }}
+        name: mslearn-tailspin-spacegame-web_${{ github.run_number }}
         path: /home/runner/work/mslearn-tailspin-spacegame-web/mslearn-tailspin-spacegame-web/Tailspin.SpaceGame.Web/bin/Release/net6.0/win10-x64/publish/
         if-no-files-found: error
       
