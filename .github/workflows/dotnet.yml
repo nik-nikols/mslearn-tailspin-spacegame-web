@@ -28,4 +28,3 @@ jobs:
       run: dotnet test --no-build --verbosity normal
     - name: Publish
       run: dotnet publish -c Release -f net6.0 -r win10-x64 --self-contained true -v d
-           | cd /home/runner/work/mslearn-tailspin-spacegame-web/mslearn-tailspin-spacegame-web/Tailspin.SpaceGame.Web/bin/Release/net6.0/publish && git init
